@@ -1,0 +1,30 @@
+$white: #ffffff;
+$background: #1e252d;
+$cebar: #274136;
+$pebar: #443135;
+
+.divStyle {
+  text-align: right;
+  color: $white;
+  width: 25%;
+  z-index: 2;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  margin: 3px 0px;
+}
+
+.count {
+  text-align: center;
+}
+
+.body {
+  background-color: $background;
+  display: flex;
+}
+
+.ceContainer {
+  width: 50%;
+}
+
+.peContainer {
+  width: 50%;
+}
